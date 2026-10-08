@@ -13,7 +13,7 @@ export default function App() {
       <Header currentPage={currentPage} setCurrentPage={setCurrentPage} />
 
       <main className="flex-grow">
-        {currentPage === 'home' && <Home />}
+        {currentPage === 'home' && <Home setCurrentPage={setCurrentPage} />}
         {currentPage === 'about' && <About />}
         {currentPage === 'contact' && <Contact />}
       </main>
