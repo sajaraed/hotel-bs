@@ -60,7 +60,7 @@ export default function Home({ setCurrentPage }: HomeProps) {
         </div>
       </section>
 
-      {/* Heritage & Elegance Section (تم إبقاء الصورة والنص بجانب بعضهما على الجوال) */}
+      {/* Heritage & Elegance Section */}
       <section className="py-12 sm:py-20 bg-white">
         <div className="container mx-auto grid grid-cols-2 items-center gap-4 sm:gap-16 px-3 sm:px-6">
           <div className="relative" data-aos="fade-right">
@@ -118,7 +118,7 @@ export default function Home({ setCurrentPage }: HomeProps) {
         </div>
       </section>
 
-      {/* World-Class Amenities Section (تم إبقاء الكاردات بجانب بعضها على الجوال بـ 3 أعمدة أو أعمدة متجاورة) */}
+      {/* World-Class Amenities Section */}
       <section className="py-12 sm:py-20 bg-gray-50">
         <div className="container mx-auto px-3 sm:px-6 text-center">
           <h6 className="text-orange-500 font-bold uppercase tracking-[0.2em] sm:tracking-[0.3em] mb-2 sm:mb-3 text-xs sm:text-sm">Our Services</h6>
